@@ -1,29 +1,3 @@
-
-<title>README do Projeto</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        background-color: #f9f9f9;
-        color: #333;
-        padding: 20px;
-    }
-    h1, h2, h3 {
-        color: #2c3e50;
-    }
-    .status {
-        font-weight: bold;
-    }
-    .timeline {
-        list-style-type: none;
-        padding: 0;
-    }
-    .timeline li {
-        margin-bottom: 10px;
-    }
-</style>
-
-
 <h1>Nome do Projeto</h1>
 
 <h2>Descrição</h2>
