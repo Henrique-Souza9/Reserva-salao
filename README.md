@@ -1,4 +1,4 @@
-<h1>Nome do Projeto</h1>
+<h1 aling="center">Nome do Projeto</h1>
 
 <h2>Descrição</h2>
 <p>Este projeto é uma aplicação que...</p>
