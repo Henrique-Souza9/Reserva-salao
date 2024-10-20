@@ -23,6 +23,9 @@
     
 </ul>
 
+<h3>Conclusão</h3>
+<p>Com a implementação deste sistema de reservas, buscamos melhorar a experiência dos moradores, oferecendo um serviço ágil e eficiente. O uso de tecnologias como Bootstrap e Python garantirá que a aplicação seja moderna e funcional, contribuindo para uma gestão mais eficaz do espaço comum do condomínio.</p>
+
 <h2>✅ Status do Projeto </h2>
 <p class="status">Em andamento</p>
 
