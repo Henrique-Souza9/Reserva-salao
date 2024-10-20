@@ -11,8 +11,10 @@
 
 <h2> 🛠 Tecnologias utilizadas</h2>
 <ul class="tecnologias">
-    <li>Python: Descrição da tarefa ou marco.</li>
-        <li>Data 2: Descrição da tarefa ou marco.</li>
+    <li>Python:
+        <ul> 
+            Data 2: Descrição da tarefa ou marco.</li>
+        </ul>    
     <li>Data 3: Descrição da tarefa ou marco.</li>
     <li>Data 4: Descrição da tarefa ou marco.</li>
 </ul>
