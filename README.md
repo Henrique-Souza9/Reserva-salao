@@ -45,11 +45,3 @@
     
 </ul>
 
-<h2>Timeline</h2>
-<ul class="timeline">
-    <li>Data 1: Descrição da tarefa ou marco.</li>
-    <li>Data 2: Descrição da tarefa ou marco.</li>
-    <li>Data 3: Descrição da tarefa ou marco.</li>
-    <li>Data 4: Descrição da tarefa ou marco.</li>
-</ul>
-
