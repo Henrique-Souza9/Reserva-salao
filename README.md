@@ -29,9 +29,6 @@
 <h2>✅ Status do Projeto </h2>
 <p class="status">Em andamento</p>
 
-<h2>Autor</h2>
-<p>Henrique v Souza</p>
-
 <h2> 🛠 Tecnologias utilizadas</h2>
 <ul class="tecnologias">
     <li>Bootstrap:
@@ -44,4 +41,9 @@
         </ul>    
     
 </ul>
+
+
+<h2>Autor</h2>
+<p>Henrique v Souza</p>
+
 
