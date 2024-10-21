@@ -166,7 +166,7 @@ font-weight: bold;
           <item>
            <widget class="QStackedWidget" name="stackedWidget">
             <property name="currentIndex">
-             <number>2</number>
+             <number>0</number>
             </property>
             <widget class="QWidget" name="pg_reservar">
              <property name="styleSheet">
@@ -350,11 +350,11 @@ border-radius: 5px;</string>
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_16">
-                 <item>
-                  <widget class="QLabel" name="label_9">
+                 <item alignment="Qt::AlignHCenter">
+                  <widget class="QLabel" name="label_14">
                    <property name="maximumSize">
                     <size>
-                     <width>80</width>
+                     <width>16777215</width>
                      <height>10</height>
                     </size>
                    </property>
@@ -517,20 +517,14 @@ border-radius: 5px;</string>
                    </property>
                   </widget>
                  </item>
-                 <item>
+                 <item alignment="Qt::AlignHCenter">
                   <widget class="QPushButton" name="pushButton_2">
-                   <property name="maximumSize">
-                    <size>
-                     <width>100</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
                    <property name="styleSheet">
                     <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(173, 0, 0);</string>
+background-color: rgb(184, 0, 3);</string>
                    </property>
                    <property name="text">
-                    <string>Cancelar </string>
+                    <string>Cancelar</string>
                    </property>
                   </widget>
                  </item>
@@ -1113,7 +1107,6 @@ color: rgb(255, 255, 255);</string>
     </item>
    </layout>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
