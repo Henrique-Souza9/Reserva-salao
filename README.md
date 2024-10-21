@@ -42,12 +42,11 @@
     
 </ul>
 
-<h2>Futuras Atualizações:</h2>
+<h2>🌐 Futuras Atualizações:</h2>
 <p>O projeto está planejado para evoluir, com uma futura atualização que migrará a aplicação para uma plataforma web. Essa transição permitirá ampliar o alcance do sistema, oferecendo:</p>
 <ul>
     <li>Acesso Remoto: Administradores & Moradore poderão acessar o sistema de qualquer lugar via navegador, eliminando a necessidade de instalação local.<li>
-    <li>Área do Usuário: Cada usuario terá uma conta pessoal para gerenciar reservas e consultar o histórico.</li>
-    
+    <li>Área do Usuário: Cada usuario terá uma conta pessoal para gerenciar reservas e consultar o histórico.</li> 
 </ul>
 <p>O aplicativo busca simplificar o processo de agendamento, com um foco inicial na gestão eficiente por parte dos administradores, e planos para uma evolução contínua que atenderá às necessidades futuras.</p>
 
