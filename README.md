@@ -3,15 +3,15 @@
 <h2>👉 Descrição</h2>
 
 <h3>Introdução</h3>
-<p>O presente projeto tem como objetivo desenvolver um sistema de reservas para o salão de festas do condomínio, proporcionando uma forma prática e eficiente para os moradores agendarem eventos. Utilizaremos tecnologias modernas, como Bootstrap para o front-end e Python para o back-end, garantindo uma interface amigável e um funcionamento robusto.</p>
+<p>O projeto "Reserva de Salão de Festas" tem como objetivo otimizar o processo de agendamento e gestão de reservas de espaços para eventos, focando na facilidade de uso para administradores. Desenvolvido inicialmente em Python com uma interface gráfica criada no QT Designer, o sistema permitirá que os administradores do salão realizem reservas de maneira prática e eficiente.</p>
 
 <h3>Funcionalidades Principais</h3>
 <ul class="timeline">
-    <li><b>Cadastro de Usuários:</b> Os moradores poderão criar uma conta e gerenciar suas reservas de forma segura.</li>
-    <li><b>Reserva de Salão:</b> O sistema permitirá a visualização da disponibilidade do salão em tempo real, facilitando o agendamento.</li>
-    <li><b>Confirmação de Reserva:</b> Após selecionar a data e horário desejados, o usuário receberá uma confirmação automática.</li>
-    <li><b>Cancelamento e Alterações:</b> Os usuários poderão alterar ou cancelar reservas conforme suas necessidades.</li>
-    <li><b>Administração:</b> Um painel administrativo permitirá que os gestores do condomínio monitorem reservas e mantenham o controle sobre a utilização do espaço.</li>
+    <li><b>Cadastro de Salões: </b> Os administradores poderão cadastrar diferentes salões disponíveis para reserva, incluindo informações sobre capacidade, localização e preços.</li>
+    <li><b>Calendário de Disponibilidade:</b> Uma interface intuitiva que mostrará a disponibilidade dos salões em tempo real, evitando conflitos de agendamento.</li>
+    <li><b>Reserva de Eventos:</b> Os administradores poderão selecionar a data e horário desejados para eventos, além de registrar informações relevantes, como tipo de evento e número de convidados.</li>
+    <li><b>Confirmação de Reserva:</b> Após o registro da reserva, o sistema gerará uma confirmação que será enviada ao administrador.</li>
+
 </ul>
 
 <h3>Benefícios do Sistema</h3>
@@ -31,9 +31,9 @@
 
 <h2> 🛠️ Tecnologias utilizadas</h2>
 <ul class="tecnologias">
-    <li>Bootstrap:
+    <li>QT Designer::
         <ul> 
-            Será utilizado para desenvolver uma interface responsiva e intuitiva, garantindo que o sistema seja acessível em diferentes dispositivos, como desktops, tablets e smartphones.</li>
+            Ferramenta utilizada para criar uma interface gráfica amigável e responsiva.</li>
         </ul>
     <li>Python:
         <ul> 
@@ -42,6 +42,15 @@
     
 </ul>
 
+<h2>Futuras Atualizações:</h2>
+<p>O projeto está planejado para evoluir, com uma futura atualização que migrará a aplicação para uma plataforma web. Essa transição permitirá ampliar o alcance do sistema, oferecendo:</p>
+<ul>
+    <li>Acesso Remoto: Administradores & Moradore poderão acessar o sistema de qualquer lugar via navegador, eliminando a necessidade de instalação local.
+    <li>
+    <li>Área do Usuário: Cada usuario terá uma conta pessoal para gerenciar reservas e consultar o histórico.</li>
+    
+</ul>
+<p>O "Reserva de Salão de Festas" busca simplificar o processo de agendamento, com um foco inicial na gestão eficiente por parte dos administradores, e planos para uma evolução contínua que atenderá às necessidades futuras.</p>
 
 <h2>Autor</h2>
 <p>Henrique v Souza</p>
