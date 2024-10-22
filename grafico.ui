@@ -99,7 +99,7 @@ font-weight: bold;
               </widget>
              </item>
              <item>
-              <widget class="QPushButton" name="btn_cancelar">
+              <widget class="QPushButton" name="btn_status">
                <property name="styleSheet">
                 <string notr="true">background-color: rgb(255, 255, 255);
 font-weight: bold;
@@ -107,7 +107,7 @@ font-weight: bold;
 </string>
                </property>
                <property name="text">
-                <string>Cancelar Reserva</string>
+                <string>Status Reserva</string>
                </property>
               </widget>
              </item>
@@ -217,6 +217,9 @@ background-color: rgb(88, 88, 88);
 background-color: rgb(88, 88, 88);
 border-radius: 5px;</string>
                    </property>
+                   <attribute name="horizontalHeaderDefaultSectionSize">
+                    <number>140</number>
+                   </attribute>
                    <row>
                     <property name="text">
                      <string>1</string>
@@ -289,12 +292,12 @@ border-radius: 5px;</string>
                    </row>
                    <column>
                     <property name="text">
-                     <string>ID</string>
+                     <string>Morador Responsável 1</string>
                     </property>
                    </column>
                    <column>
                     <property name="text">
-                     <string>Nome Morador</string>
+                     <string>Telefone 1</string>
                     </property>
                    </column>
                    <column>
@@ -309,12 +312,22 @@ border-radius: 5px;</string>
                    </column>
                    <column>
                     <property name="text">
+                     <string>Morador Responsável 2</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>Telefone 2</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
                      <string>Data Agendada</string>
                     </property>
                    </column>
                    <column>
                     <property name="text">
-                     <string>Ativo</string>
+                     <string>Status</string>
                     </property>
                    </column>
                   </widget>
@@ -367,7 +380,7 @@ border-radius: 5px;</string>
                   </widget>
                  </item>
                  <item>
-                  <widget class="QLineEdit" name="lineEdit_9">
+                  <widget class="QLineEdit" name="lineEdit_nomeM">
                    <property name="styleSheet">
                     <string notr="true">background-color: rgb(255, 255, 255);
 font-weight: bold;
@@ -378,46 +391,6 @@ border-radius: 5px;</string>
                    </property>
                   </widget>
                  </item>
-                 <item alignment="Qt::AlignHCenter">
-                  <widget class="QLabel" name="label_10">
-                   <property name="maximumSize">
-                    <size>
-                     <width>16777215</width>
-                     <height>10</height>
-                    </size>
-                   </property>
-                   <property name="styleSheet">
-                    <string notr="true">color: rgb(255, 255, 255);</string>
-                   </property>
-                   <property name="text">
-                    <string>ID da Reserva</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QLineEdit" name="lineEdit_10">
-                   <property name="styleSheet">
-                    <string notr="true">background-color: rgb(255, 255, 255);
-font-weight: bold;
-border-radius: 5px;</string>
-                   </property>
-                   <property name="placeholderText">
-                    <string>ID</string>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="frame_21">
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_17">
                  <item alignment="Qt::AlignHCenter">
                   <widget class="QLabel" name="label_11">
                    <property name="maximumSize">
@@ -435,7 +408,7 @@ border-radius: 5px;</string>
                   </widget>
                  </item>
                  <item>
-                  <widget class="QLineEdit" name="lineEdit_11">
+                  <widget class="QLineEdit" name="lineEdit_bl">
                    <property name="styleSheet">
                     <string notr="true">background-color: rgb(255, 255, 255);
 font-weight: bold;
@@ -463,7 +436,7 @@ border-radius: 5px;</string>
                   </widget>
                  </item>
                  <item>
-                  <widget class="QLineEdit" name="lineEdit_12">
+                  <widget class="QLineEdit" name="lineEdit_aptm">
                    <property name="styleSheet">
                     <string notr="true">background-color: rgb(255, 255, 255);
 font-weight: bold;
@@ -474,18 +447,6 @@ border-radius: 5px;</string>
                    </property>
                   </widget>
                  </item>
-                </layout>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="frame_22">
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_18">
                  <item alignment="Qt::AlignHCenter">
                   <widget class="QLabel" name="label_13">
                    <property name="maximumSize">
@@ -498,33 +459,32 @@ border-radius: 5px;</string>
                     <string notr="true">color: rgb(255, 255, 255);</string>
                    </property>
                    <property name="text">
-                    <string>Assinou a Ata?</string>
+                    <string>Status</string>
                    </property>
                   </widget>
                  </item>
                  <item>
-                  <widget class="QLineEdit" name="lineEdit_13">
+                  <widget class="QLineEdit" name="lineEdit_status">
                    <property name="styleSheet">
                     <string notr="true">background-color: rgb(255, 255, 255);
 font-weight: bold;
 border-radius: 5px;</string>
                    </property>
-                   <property name="text">
-                    <string/>
-                   </property>
                    <property name="placeholderText">
-                    <string>Sim ou Não</string>
+                    <string>000</string>
                    </property>
                   </widget>
                  </item>
                  <item alignment="Qt::AlignHCenter">
-                  <widget class="QPushButton" name="pushButton_2">
+                  <widget class="QPushButton" name="btn_alterar">
                    <property name="styleSheet">
-                    <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(184, 0, 3);</string>
+                    <string notr="true">background-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font-weight: bold;
+</string>
                    </property>
                    <property name="text">
-                    <string>Cancelar</string>
+                    <string>Alterar</string>
                    </property>
                   </widget>
                  </item>
@@ -654,7 +614,7 @@ font-weight: bold;
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_10">
                           <item>
-                           <widget class="QLineEdit" name="lineEdit">
+                           <widget class="QLineEdit" name="lineEdit_responsavel1">
                             <property name="styleSheet">
                              <string notr="true">background-color: rgb(255, 255, 255);</string>
                             </property>
@@ -721,7 +681,7 @@ font-weight: bold;
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_13">
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_4">
+                           <widget class="QLineEdit" name="lineEdit_responsavel2">
                             <property name="styleSheet">
                              <string notr="true">background-color: rgb(255, 255, 255);</string>
                             </property>
@@ -819,7 +779,7 @@ font-weight: bold;
                          </property>
                          <layout class="QHBoxLayout" name="horizontalLayout_6">
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_3">
+                           <widget class="QLineEdit" name="lineEdit_telefone1">
                             <property name="styleSheet">
                              <string notr="true">background-color: rgb(255, 255, 255);</string>
                             </property>
@@ -886,7 +846,7 @@ font-weight: bold;
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_12">
                           <item>
-                           <widget class="QLineEdit" name="lineEdit_2">
+                           <widget class="QLineEdit" name="lineEdit_telefone2">
                             <property name="styleSheet">
                              <string notr="true">background-color: rgb(255, 255, 255);</string>
                             </property>
@@ -963,7 +923,7 @@ font-weight: bold;
                      </widget>
                     </item>
                     <item>
-                     <widget class="QLineEdit" name="lineEdit_5">
+                     <widget class="QLineEdit" name="lineEdit_bloco">
                       <property name="styleSheet">
                        <string notr="true">background-color: rgb(255, 255, 255);</string>
                       </property>
@@ -991,7 +951,7 @@ font-weight: bold;
                      </widget>
                     </item>
                     <item>
-                     <widget class="QLineEdit" name="lineEdit_6">
+                     <widget class="QLineEdit" name="lineEdit_apartamento_r">
                       <property name="styleSheet">
                        <string notr="true">background-color: rgb(255, 255, 255);</string>
                       </property>
@@ -1029,19 +989,19 @@ font-weight: bold;
 </string>
                    </property>
                    <property name="text">
-                    <string>Qtd Convidados</string>
+                    <string>Data Agendada</string>
                    </property>
                   </widget>
                  </item>
                  <item>
-                  <widget class="QLineEdit" name="lineEdit_7">
+                  <widget class="QLineEdit" name="lineEdit_dataagendada">
                    <property name="styleSheet">
                     <string notr="true">background-color: rgb(255, 255, 255);
 font-weight: bold;
 border-radius: 5px;</string>
                    </property>
                    <property name="placeholderText">
-                    <string>00</string>
+                    <string>00/00/0000 00:00</string>
                    </property>
                   </widget>
                  </item>
@@ -1059,19 +1019,19 @@ font-weight: bold;
 </string>
                    </property>
                    <property name="text">
-                    <string>Data Agendada</string>
+                    <string>Status</string>
                    </property>
                   </widget>
                  </item>
                  <item>
-                  <widget class="QLineEdit" name="lineEdit_8">
+                  <widget class="QLineEdit" name="lineEdit_status_cadastro">
                    <property name="styleSheet">
                     <string notr="true">background-color: rgb(255, 255, 255);
 font-weight: bold;
 border-radius: 5px;</string>
                    </property>
                    <property name="placeholderText">
-                    <string>00/00/0000 00:00</string>
+                    <string>00</string>
                    </property>
                   </widget>
                  </item>
