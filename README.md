@@ -41,7 +41,6 @@
         </ul>    
     </li>
 </ul>
-
 <h2>🌐 Futuras Atualizações:</h2>
 <p>O projeto está planejado para evoluir, com uma futura atualização que migrará a aplicação para uma plataforma web. Essa transição permitirá ampliar o alcance do sistema, oferecendo:</p>
 <ul>
