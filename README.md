@@ -37,9 +37,9 @@
         </ul>
     <li>Python:
         <ul> 
-            A lógica de back-end será implementada em Python, utilizando frameworks como Flask ou Django, que facilitarão a construção de uma API robusta e escalável.</li>
+            A lógica de back-end será implementada em Python, utilizando frameworks como Flask ou Django, que facilitarão a construção de uma API robusta e escalável.
         </ul>    
-    
+    </li>
 </ul>
 
 <h2>🌐 Futuras Atualizações:</h2>
